@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+// import { Link } from "react-dom"
 import { BiMenu, BiX } from "react-icons/bi";
 
 const Navbar = () => {
@@ -16,10 +17,12 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 bg-white/90 backdrop-blur-sm z-50 border-b border-gray-100 shadow-sm">
       <div className="w-full container mx-auto flex justify-between items-center px-6 sm:px-6 lg:px-8 md:h-20 h-16">
         {/* Logo */}
+        {/* <Link to="/"> */}
         <div className="flex items-center gap-0 cursor-pointer">
           <div className="w-6 h-6 bg-amber-500 rounded-full opacity-75 hover:opacity-100 transition-opacity"></div>
           <div className="w-6 h-6 bg-blue-500 rounded-full opacity-75 hover:opacity-100 transition-opacity -ml-2 "></div>
         </div>
+        {/* </Link> */}
 
         {/* Mobile Menu icon */}
         <button className="md:hidden p-2 transition-all" onClick={() => setisMenuOpen(!isMenuOpen)}>
