@@ -6,22 +6,22 @@ const Purpose = () => {
     //   purpose section
     const features = [
         {
-            icon: "🟣", // Replace with your actual icon component or image
+            icon: "🟣",
             title: "Built for impact",
             description: "We identify and nurture a truly diverse team of designers, developers and marketers"
         },
         {
-            icon: "🔴", // Replace with your actual icon component or image
+            icon: "🔴",
             title: "In sync with you",
             description: "We work the way you do by adapting to your workflows and rhythm we aim to blend in for a seamless."
         }
     ];
 
     return (
-        <section className='w-full mx-auto px-4 sm:px-6 lg:px-8 bg-gray-50 py-16 flex flex-col sm:flex-row md:flex-row lg:flex-row gap-4 items-center'>
+        <section className='w-full mx-auto px-4 sm:px-6 lg:px-8 bg-gray-50 py-16 flex flex-col sm:flex-row md:flex-row lg:flex-row gap-4 items-center sm:items-start md:items-start'>
             <div className='max-w-6xl mx-0 sm:mx-auto md:mx-auto lg:mx-auto flex flex-col gap-1 justify-start'>
                 <p className='uppercase text-sm text-amber-600'>Achieve more</p>
-                <div className='font-extrabold text-4xl w-64'>
+                <div className='font-extrabold text-4xl w-fit sm:w-64'>
                     Purpose of this to learn and practice.
                 </div>
             </div>

@@ -1,6 +1,7 @@
 import './App.css'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
+import Partner from './components/Partner'
 import Purpose from './components/Purpose'
 import Showcase from './components/Showcase'
 
@@ -13,6 +14,7 @@ function App() {
         <Hero />
         <Showcase />
         <Purpose />
+        <Partner />
       </div>
     </main>
   )
