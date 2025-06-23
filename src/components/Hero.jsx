@@ -10,7 +10,7 @@ const Hero = () => {
                 {/* Star */}
                 <div className="flex items-center gap-2 bg-amber-100 w-fit px-5 py-2 rounded-full group hover:bg-blue-100 cursor-pointer">
                     <BiSolidStar className="text-amber-600 group-hover:scale-110 transition-transform group-hover:text-blue-500 animate-spin group-hover:animate-pulse" />
-                    <span className="font-normal text-sm"> Write a tagline here.</span>
+                    <span className="font-normal text-sm"> Write a tagline here you Idiot!</span>
                 </div>
                 {/* heading */}
                 <h1 className="font-bold text-4xl md:text-5xl lg:text-6xl leading-tight capitalize">
