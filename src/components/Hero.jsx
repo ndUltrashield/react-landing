@@ -1,5 +1,5 @@
 import React from "react";
-import { BiArrowFromLeft, BiArrowToRight, BiRightArrow, BiRightArrowAlt, BiSolidStar } from "react-icons/bi";
+import { BiRightArrowAlt, BiSolidStar } from "react-icons/bi";
 import Heroimg from "../assets/hero-image.png";
 
 const Hero = () => {
