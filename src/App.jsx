@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import Partner from './components/Partner'
 import Purpose from './components/Purpose'
+import Schedule from './components/Schedule'
 import Showcase from './components/Showcase'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Showcase />
         <Purpose />
         <Partner />
+        <Schedule />
       </div>
     </main>
   )

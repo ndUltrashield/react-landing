@@ -18,7 +18,7 @@ const Purpose = () => {
     ];
 
     return (
-        <section className='w-full mx-auto px-4 sm:px-6 lg:px-8 bg-gray-50 py-16 flex flex-col sm:flex-row md:flex-row lg:flex-row gap-4 items-center sm:items-start md:items-start'>
+        <section id='about' className='w-full mx-auto px-4 sm:px-6 lg:px-8 bg-gray-50 py-16 flex flex-col sm:flex-row md:flex-row lg:flex-row gap-4 items-center sm:items-start md:items-start'>
             <div className='max-w-6xl mx-0 sm:mx-auto md:mx-auto lg:mx-auto flex flex-col gap-1 justify-start'>
                 <p className='uppercase text-sm text-amber-600'>Achieve more</p>
                 <div className='font-extrabold text-4xl w-fit sm:w-64'>
