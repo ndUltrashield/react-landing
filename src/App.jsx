@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Monitor from './components/Monitor'
 import Navbar from './components/Navbar'
 import Partner from './components/Partner'
+import Pricing from './components/Pricing'
 import Purpose from './components/Purpose'
 import Schedule from './components/Schedule'
 import Showcase from './components/Showcase'
@@ -19,6 +20,7 @@ function App() {
         <Partner />
         <Schedule />
         <Monitor />
+        <Pricing />
       </div>
     </main>
   )

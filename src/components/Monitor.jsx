@@ -1,4 +1,3 @@
-import React from 'react'
 import MonitorImg from '../assets/monitor-card.webp'
 import { TbArrowBigRightLinesFilled } from "react-icons/tb";
 
