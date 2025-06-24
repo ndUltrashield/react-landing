@@ -1,5 +1,6 @@
 import './App.css'
 import Hero from './components/Hero'
+import Monitor from './components/Monitor'
 import Navbar from './components/Navbar'
 import Partner from './components/Partner'
 import Purpose from './components/Purpose'
@@ -17,6 +18,7 @@ function App() {
         <Purpose />
         <Partner />
         <Schedule />
+        <Monitor />
       </div>
     </main>
   )

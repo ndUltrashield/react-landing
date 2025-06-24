@@ -15,7 +15,7 @@ const Hero = () => {
                 {/* heading */}
                 <h1 className="font-bold text-4xl md:text-5xl lg:text-6xl leading-tight capitalize">
                     Use your mind and write{" "}
-                    <span className="text-amber-500">something meaningful</span> here. Ok?
+                    <span className="text-amber-500 hover:text-blue-500 cursor-pointer transition-colors">something meaningful</span> here. Ok?
                 </h1>
                 {/* para */}
                 <p className="text-gray-500 text-lg md:text-xl max-w-xl">
