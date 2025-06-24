@@ -49,8 +49,8 @@ const Pricing = () => {
     const enterprisePrice = Math.round(7500 * (teamcount / 50))
 
     return (
-        <section className='px-4 py-20'>
-            <div className='max-w-6xl mx-auto flex flex-col gap-16'>
+        <section id='pricing' className='px-4 py-20'>
+            <div className='max-w-6xl mx-auto flex flex-col gap-8 sm:gap-12 md:gap-16 '>
                 <h2 className='text-3xl md:text-4xl font-bold text-center'>Pricing</h2>
                 <div className='flex flex-col md:flex-row justify-between gap-8'>
                     <div className='bg-white flex flex-col items-center justify-start p-8 rounded-lg shadow-md border-1 border-amber-600 w-full gap-4'>
