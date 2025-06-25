@@ -2,6 +2,7 @@ import './App.css'
 import Hero from './components/Hero'
 import Monitor from './components/Monitor'
 import Navbar from './components/Navbar'
+import OurFeature from './components/OurFeature'
 import Partner from './components/Partner'
 import Pricing from './components/Pricing'
 import Purpose from './components/Purpose'
@@ -21,6 +22,7 @@ function App() {
         <Schedule />
         <Monitor />
         <Pricing />
+        <OurFeature />
       </div>
     </main>
   )

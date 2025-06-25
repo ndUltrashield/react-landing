@@ -83,7 +83,7 @@ const Pricing = () => {
                     <p className='font-semibold text-2xl text-center'>Team count: {teamcount}</p>
                     <div className='flex items-center gap-2 w-full max-w-xl'>
                         <span className='text-xs sm:text-sm text-gray-600'>1</span>
-                        <input type="range" name="count" id="count" min="1" max="50" value={teamcount} onChange={(e) => setteamcount(parseInt(e.target.value))} className='flex-1 h-2 bg-gray-200 rounded-lg cursor-pointer' />
+                        <input type="range" name="count" id="count" min="1" max="50" value={teamcount} onChange={(e) => setteamcount(parseInt(e.target.value))} className='flex-1 h-2 bg-gray-200 rounded-lg cursor-pointer appearance-none' />
                         <span className='text-xs sm:text-sm text-gray-600'>50</span>
                     </div>
                 </div>
