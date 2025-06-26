@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 // import { Link } from "react-dom"
-import { BiMenu, BiX } from "react-icons/bi";
+import { BiMenuAltRight, BiX } from "react-icons/bi";
 
 const Navbar = () => {
   const [isMenuOpen, setisMenuOpen] = useState(false)
@@ -28,7 +28,7 @@ const Navbar = () => {
         {/* Mobile Menu icon */}
         <button className="md:hidden p-2 transition-all" onClick={() => setisMenuOpen(!isMenuOpen)}>
           {
-            isMenuOpen ? <BiX className="size-6" /> : <BiMenu className="size-6" />
+            isMenuOpen ? <BiX className="size-6" /> : <BiMenuAltRight className="size-6" />
           }
         </button>
 

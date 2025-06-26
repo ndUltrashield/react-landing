@@ -1,4 +1,5 @@
 import './App.css'
+import Footer from './components/Footer'
 // import { BiSolidChevronsUp } from "react-icons/bi";
 import Hero from './components/Hero'
 import Monitor from './components/Monitor'
@@ -31,6 +32,7 @@ function App() {
         <OurFeature />
         <Testimonial />
         <Newsletter />
+        <Footer />
       </div>
     </main>
   )

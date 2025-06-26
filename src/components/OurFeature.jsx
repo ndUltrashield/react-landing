@@ -45,8 +45,8 @@ const OurFeature = () => {
     return (
         <section id='features'>
             <div className='sm:max-w-7xl mx-auto py-6 sm:py-8 md:py-12'>
-                <div className='flex flex-col md:flex-row justify-between items-center sm:items-start'>
-                    <div className='flex flex-col gap-4'>
+                <div className='flex flex-col md:flex-row justify-between items-start gap-4 px-4'>
+                    <div className='flex flex-col gap-4 px-2'>
                         <h3 className='font-bold text-2xl'>Write a short title here.</h3>
                         <p className='text-lg'>A short description here.</p>
                         <div className='flex flex-col gap-2'>
