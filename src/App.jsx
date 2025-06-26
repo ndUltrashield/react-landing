@@ -3,6 +3,7 @@ import './App.css'
 import Hero from './components/Hero'
 import Monitor from './components/Monitor'
 import Navbar from './components/Navbar'
+import Newsletter from './components/Newsletter'
 import OurFeature from './components/OurFeature'
 import Partner from './components/Partner'
 import Pricing from './components/Pricing'
@@ -29,6 +30,7 @@ function App() {
         <Pricing />
         <OurFeature />
         <Testimonial />
+        <Newsletter />
       </div>
     </main>
   )
