@@ -43,7 +43,7 @@ const OurFeature = () => {
     ]
 
     return (
-        <section>
+        <section id='features'>
             <div className='sm:max-w-7xl mx-auto py-6 sm:py-8 md:py-12'>
                 <div className='flex flex-col md:flex-row justify-between items-center sm:items-start'>
                     <div className='flex flex-col gap-4'>
@@ -64,11 +64,11 @@ const OurFeature = () => {
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
                         {
                             ourfeatures.map((feat, index) => (
-                                <div key={index} className=' flex flex-col gap-4 p-6 w-full sm:max-w-80 cursor-pointer bg-white hover:shadow-xl rounded-xl transition-shadow duration-300'>
+                                <div key={index} className=' flex flex-col gap-4 p-6 w-full sm:max-w-80 cursor-pointer bg-white border-1 border-gray-200 hover:border-gray-100 hover:scale-105 hover:shadow-xl rounded-xl transition-all duration-300'>
                                     <div>{feat.icon}</div>
                                     <h3 className='font-semibold text-xl'>{feat.title}</h3>
                                     <p>{feat.description}</p>
-                                    <div className='text-blue-500 font-medium uppercase'>{feat.link}</div>
+                                    <a href={feat.link} className='text-blue-500 font-medium uppercase'>learn more</a>
                                 </div>
                             ))
                         }

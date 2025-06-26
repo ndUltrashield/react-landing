@@ -30,7 +30,7 @@ const Hero = () => {
                         placeholder="Enter Email.."
                         className="flex-1 px-6 py-3 border w-full border-gray-300 rounded-xl focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100 transition-all"
                     />
-                    <button className="bg-amber-600 py-4 px-8 rounded-lg text-white cursor-pointer group hover:bg-blue-600 hover:shadow-lg hover:shadow-blue-100 transition-colors"> <BiRightArrowAlt className="text-lg group-hover:translate-x-2 transition-transform" /> </button>
+                    <button className="bg-amber-600 py-4 px-8 rounded-lg text-white cursor-pointer group hover:bg-blue-600 hover:shadow-lg hover:shadow-blue-100 transition-colors"> <BiRightArrowAlt className="text-lg group-hover:translate-x-1 transition-transform" /> </button>
                 </div>
             </div>
 
