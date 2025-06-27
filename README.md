@@ -29,14 +29,14 @@ npm install
 npm run dev
 ```
 
-✅ Features
+## ✅ Features
 
 - Fully responsive
 - Utility-first styling with Tailwind
 - Fast build and HMR via Vite
 - Easy to customize and extend
 
-🚀 Build & Deploy
+## 🚀 Build & Deploy
 
 ```bash
 npm run build
@@ -44,5 +44,6 @@ npm run build
 
 - Deploy /dist on Vercel, Netlify, or GitHub Pages.
 
-🙌 Credits
-Made with ❤️ using React, Tailwind, and Vite.
+## 🙌 Credits
+
+Made with ❤️ using React, Tailwind, Vite, Swiper.

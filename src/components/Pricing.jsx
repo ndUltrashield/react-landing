@@ -53,9 +53,9 @@ const Pricing = () => {
             <div className='max-w-6xl mx-auto flex flex-col gap-8 sm:gap-12 md:gap-16 '>
                 <h2 className='text-3xl md:text-4xl font-bold text-center'>Pricing</h2>
                 <div className='flex flex-col md:flex-row justify-between gap-8'>
-                    <div className='bg-white flex flex-col items-center justify-start p-8 rounded-lg shadow-md border-1 border-amber-600 w-full gap-4'>
+                    <div className='bg-white flex flex-col items-start justify-start p-8 rounded-lg shadow-md border-1 border-amber-600 w-full gap-4'>
                         <h3 className='text-xl text-gray-500 font-semibold'>Starter</h3>
-                        <p className='text-3xl text-amber-600 font-bold'>₹{starterPrice} /user /month</p>
+                        <p className='text-3xl text-amber-600 font-bold'>₹{starterPrice} <br /><span className='text-xl'>/user /month</span></p>
                         <div>
                             {featureStarter.map((feature, index) => (
                                 <div key={index}>
@@ -65,9 +65,9 @@ const Pricing = () => {
                             ))}
                         </div>
                     </div>
-                    <div className='bg-white flex flex-col items-center justify-center p-8 rounded-lg shadow-md w-full gap-4 border-1 border-blue-600'>
+                    <div className='bg-white flex flex-col items-start justify-start p-8 rounded-lg shadow-md w-full gap-4 border-1 border-blue-600'>
                         <h3 className='text-xl text-gray-500 font-semibold'>Enterprise</h3>
-                        <p className='text-3xl text-blue-600 font-bold'>₹{enterprisePrice} /user /month</p>
+                        <p className='text-3xl text-blue-600 font-bold'>₹{enterprisePrice} <br /><span className='text-xl'>/user /month</span></p>
                         <div>
                             {featureEnterpise.map((feature, index) => (
                                 <div key={index}>
