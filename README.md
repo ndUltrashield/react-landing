@@ -7,6 +7,7 @@ A modern, responsive landing page built with **React**, **Tailwind CSS**, and **
 - ⚛️ React
 - 💨 Tailwind CSS
 - ⚡ Vite
+- 👆🏻 Swiper JS
 - 🪟 Framer Motion
 
 ## 📁 Structure
@@ -47,4 +48,4 @@ npm run build
 
 ## 🙌 Credits
 
-Made with ❤️ using React, Tailwind, Vite, Swiper.
+Made with ❤️ using React, Tailwind, Vite, Swiper, Framer Motion.
