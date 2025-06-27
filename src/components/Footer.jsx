@@ -1,11 +1,23 @@
 import React from 'react'
 import { BiLogoFacebookCircle, BiLogoDiscordAlt, BiLogoInstagramAlt, BiLogoLinkedinSquare, BiLogoMastodon, BiCopyright } from "react-icons/bi";
+import { motion } from 'framer-motion';
+import { fadeIn } from '../utils/motion'
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();
     return (
-        <footer className='bg-amber-50 mt-8 py-8 md:py-12 flex flex-col gap-6 md:gap-12'>
-            <div className='py-4 px-4 sm:px-6 lg:px-8 container mx-auto flex flex-col gap-8 sm:flex-row justify-between'>
+        <motion.footer
+            variants={fadeIn('top', 0.2)}
+            initial="hidden"
+            whileInView="show"
+
+            className='bg-amber-50 mt-8 py-8 md:py-12 flex flex-col gap-6 md:gap-12'>
+            <motion.div
+                variants={fadeIn('top', 0.2)}
+                initial="hidden"
+                whileInView="show"
+
+                className='py-4 px-4 sm:px-6 lg:px-8 container mx-auto flex flex-col gap-8 sm:flex-row justify-between'>
                 <div className='flex flex-col gap-4 items-center sm:items-start'>
                     <div className="flex items-center gap-0 cursor-pointer">
                         <div className="w-8 h-8 bg-amber-500 rounded-full opacity-75 hover:opacity-100 transition-opacity"></div>
@@ -39,14 +51,24 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className='text-amber-400 px-4 sm:px-20'>
+            </motion.div>
+            <motion.div
+                variants={fadeIn('top', 0.2)}
+                initial="hidden"
+                whileInView="show"
+
+                className='text-amber-400 px-4 sm:px-20'>
                 <hr />
-            </div>
-            <div className='flex flex-row items-center justify-center gap-1'>
+            </motion.div>
+            <motion.div
+                variants={fadeIn('top', 0.2)}
+                initial="hidden"
+                whileInView="show"
+
+                className='flex flex-row items-center justify-center gap-1'>
                 Copyright <BiCopyright className='w-fit' /> Nirdhum {currentYear}.
-            </div>
-        </footer>
+            </motion.div>
+        </motion.footer>
     )
 }
 

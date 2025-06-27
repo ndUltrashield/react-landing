@@ -1,6 +1,8 @@
 import React, { useState } from "react"
 // import { Link } from "react-dom"
 import { BiMenuAltRight, BiX } from "react-icons/bi";
+import { motion } from "framer-motion";
+import { fadeIn } from "../utils/motion";
 
 const Navbar = () => {
   const [isMenuOpen, setisMenuOpen] = useState(false)
@@ -15,7 +17,13 @@ const Navbar = () => {
   ]
 
   return (
-    <nav className="fixed top-0 left-0 right-0 bg-white/50 backdrop-blur-sm z-50 border-b border-gray-100 shadow-sm">
+    <motion.nav
+      variants={fadeIn('down', 0.2)}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: true }}
+
+      className="fixed top-0 left-0 right-0 bg-white/50 backdrop-blur-sm z-50 border-b border-gray-100 shadow-sm">
       <div className="w-full container mx-auto flex justify-between items-center px-6 sm:px-6 lg:px-8 md:h-20 h-16">
         {/* Logo */}
         {/* <Link to="/"> */}
@@ -67,7 +75,7 @@ const Navbar = () => {
           </div>
         )
       }
-    </nav >
+    </motion.nav >
   )
 }
 

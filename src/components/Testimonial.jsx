@@ -9,6 +9,9 @@ import { Navigation } from 'swiper/modules';
 
 import { BiLeftArrowAlt, BiRightArrowAlt, BiSolidStar } from "react-icons/bi";
 
+import { motion } from 'framer-motion';
+import { fadeIn } from '../utils/motion'
+
 //   testimonials section
 const testimonials = [
     {
@@ -55,12 +58,22 @@ const Testimonial = () => {
 
     return (
         <section id='testimonials' className='py-16 px-4 max-w-6xl mx-auto flex flex-col gap-8'>
-            <div className='flex flex-col gap-2 items-center justify-center'>
+            <motion.div
+                variants={fadeIn('down', 0.2)}
+                initial="hidden"
+                whileInView="show"
+
+                className='flex flex-col gap-2 items-center justify-center'>
                 <h2 className='font-bold text-2xl uppercase text-center'>Why do we care what people say!</h2>
                 <p className='text-md text-gray-500'>WTF are these people ranting on about?</p>
-            </div>
+            </motion.div>
 
-            <div className='relative'>
+            <motion.div
+                variants={fadeIn('top', 0.2)}
+                initial="hidden"
+                whileInView="show"
+
+                className='relative'>
                 <Swiper
                     navigation={
                         {
@@ -125,7 +138,7 @@ const Testimonial = () => {
                         <BiRightArrowAlt className='size-6' />
                     </button>
                 </div>
-            </div>
+            </motion.div>
         </section>
     )
 }

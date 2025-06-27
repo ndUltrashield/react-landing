@@ -7,6 +7,7 @@ A modern, responsive landing page built with **React**, **Tailwind CSS**, and **
 - ⚛️ React
 - 💨 Tailwind CSS
 - ⚡ Vite
+- 🪟 Framer Motion
 
 ## 📁 Structure
 
