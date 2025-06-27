@@ -9,40 +9,40 @@ const Pricing = () => {
     const featureStarter = [
         {
             icon: "◾",
-            description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit."
+            description: " Basic stuff you'll pretend is enough — until it's not."
 
         },
         {
             icon: "◾",
-            description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit."
+            description: " Features you won't fully understand, but hey, they're there."
         },
         {
             icon: "◾",
-            description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit."
+            description: " Support that technically exists, but let's not get clingy."
         }
     ]
 
     const featureEnterpise = [
         {
             icon: "◾",
-            description: "Ipsum dolor sit amet consectetur adipisicing elit."
+            description: " Fancy features no one on your team will use properly"
 
         },
         {
             icon: "◾",
-            description: "Ipsum dolor sit amet consectetur adipisicing elit."
+            description: " Custom stuff that sounds impressive in meetings"
         },
         {
             icon: "◾",
-            description: "Ipsum dolor sit amet consectetur adipisicing elit."
+            description: " Priority support — because you're very important"
         },
         {
             icon: "◾",
-            description: "Ipsum dolor sit amet consectetur adipisicing elit."
+            description: " Extra dashboards to stare at without context"
         },
         {
             icon: "◾",
-            description: "Ipsum dolor sit amet consectetur adipisicing elit."
+            description: " Integration options you'll never fully configure"
         }
     ]
 
@@ -67,7 +67,7 @@ const Pricing = () => {
 
                     className='flex flex-col md:flex-row justify-between gap-8'>
                     <div className='bg-white flex flex-col items-start justify-start p-8 rounded-lg shadow-md border-1 border-amber-600 w-full gap-4'>
-                        <h3 className='text-xl text-gray-500 font-semibold'>Starter</h3>
+                        <h3 className='text-xl text-gray-500 font-semibold'>Starter (Because you're cheap, but not that cheap.)</h3>
                         <p className='text-3xl text-amber-600 font-bold'>₹{starterPrice} <br /><span className='text-xl'>/user /month</span></p>
                         <div>
                             {featureStarter.map((feature, index) => (
@@ -79,7 +79,7 @@ const Pricing = () => {
                         </div>
                     </div>
                     <div className='bg-white flex flex-col items-start justify-start p-8 rounded-lg shadow-md w-full gap-4 border-1 border-blue-600'>
-                        <h3 className='text-xl text-gray-500 font-semibold'>Enterprise</h3>
+                        <h3 className='text-xl text-gray-500 font-semibold'>Enterprise (You’ve got money to burn — we’re here to help.)</h3>
                         <p className='text-3xl text-blue-600 font-bold'>₹{enterprisePrice} <br /><span className='text-xl'>/user /month</span></p>
                         <div>
                             {featureEnterpise.map((feature, index) => (

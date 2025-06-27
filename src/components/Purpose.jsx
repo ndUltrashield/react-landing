@@ -9,13 +9,13 @@ const Purpose = () => {
     const features = [
         {
             icon: "🟣",
-            title: "Built for impact",
-            description: "We identify and nurture a truly diverse team of designers, developers and marketers"
+            title: "Built for Impact (Allegedly)",
+            description: "We handpicked a “diverse” team of designers, developers, and marketers — which basically means nobody agrees on anything, and somehow, it works. Most days."
         },
         {
             icon: "🔴",
-            title: "In sync with you",
-            description: "We work the way you do by adapting to your workflows and rhythm we aim to blend in for a seamless."
+            title: "In Sync (Like, Spiritually?)",
+            description: "We pretend to adapt to your workflows so it feels like we’re part of the team — until we break something, disappear for two days, then come back with “a better way to do it.”"
         }
     ];
 

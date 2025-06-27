@@ -34,13 +34,13 @@ const OurFeature = () => {
 
     const listitem = [
         {
-            desc: "▪️Lorem ipsum dolor sit amet consectetur."
+            desc: "▪️ A thing you probably expect us to offer anyway"
         },
         {
-            desc: "▪️Deleniti asperiores commodi doloribus."
+            desc: "▪️ Another thing that sounds technical enough to impress your boss"
         },
         {
-            desc: "▪️Repellendus nobis earum voluptate quis."
+            desc: "▪️ Something vague but positive — just nod and keep scrolling"
         },
     ]
 
@@ -54,8 +54,8 @@ const OurFeature = () => {
                         whileInView="show"
 
                         className='flex flex-col gap-4 px-2'>
-                        <h3 className='font-bold text-2xl'>Write a short title here.</h3>
-                        <p className='text-lg'>A short description here.</p>
+                        <h3 className='font-bold text-2xl'>Cool Feature Stuff or Whatever.</h3>
+                        <p className='text-lg'>Here’s the part where we act like these bullet points will change your life.</p>
                         <div className='flex flex-col gap-2'>
                             {
                                 listitem.map((li, index) => (

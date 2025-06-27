@@ -16,39 +16,39 @@ import { fadeIn } from '../utils/motion'
 const testimonials = [
     {
         id: 1,
-        name: "Robin Ayala Doe",
+        name: "Ravi S., Pretending-to-be-a-Manager",
         image: "https://randomuser.me/api/portraits/men/77.jpg",
-        text: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast.",
+        text: "I had no idea what I was doing, but somehow this made me look competent.",
     },
     {
         id: 2,
-        name: "John De marli",
+        name: "Ankita M., Probably Skimming This",
         image: "https://randomuser.me/api/portraits/women/90.jpg",
-        text: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.",
+        text: "We still don't understand how it works, but it has charts, so we trust it.",
     },
     {
         id: 3,
-        name: "Rowhan Smith",
+        name: "Jay D., Reluctant Subscriber",
         image: "https://randomuser.me/api/portraits/men/90.jpg",
-        text: "When she reached the first hills of the Mountains, she had a last view back on the of her hometown Bookmarksgrove, the headline.",
+        text: "Signed up out of FOMO. Stayed because cancelling felt like effort.",
     },
     {
         id: 4,
-        name: "Sarah Johnson",
+        name: "Sneha P., Middle Management Hero",
         image: "https://randomuser.me/api/portraits/women/45.jpg",
-        text: "The customer service has been exceptional. They went above and beyond to help me solve my problems and were always available when I needed them.",
+        text: "I told my team to use it. They didn’t. But it’s the thought that counts.",
     },
     {
         id: 5,
-        name: "Michael Chen",
+        name: "Rohan T., Button Clicker-in-Chief",
         image: "https://randomuser.me/api/portraits/men/32.jpg",
-        text: "I've been using their services for over a year now and couldn't be happier. The platform is intuitive and the features are exactly what I needed for my business.",
+        text: "10/10 would confuse my colleagues with this again.",
     },
     {
         id: 6,
-        name: "Emma Wilson",
+        name: "Neha K., Extremely Satisfied (Allegedly)",
         image: "https://randomuser.me/api/portraits/women/28.jpg",
-        text: "What impressed me most was how quickly they responded to my requests. The team is professional, knowledgeable, and truly cares about their customers' success.",
+        text: "It solved a problem I didn’t know I had — and probably still don’t.”",
     },
 
 ];
@@ -119,7 +119,7 @@ const Testimonial = () => {
                                         }
                                     </div>
 
-                                    <div className='text-lg font-bold text-blue-600'>{testimonial.name}</div>
+                                    <div className='text-lg font-bold text-blue-600 text-center'>{testimonial.name}</div>
                                     <div className='text-center text-gray-600'>{testimonial.text}</div>
                                 </div>
                             </SwiperSlide>

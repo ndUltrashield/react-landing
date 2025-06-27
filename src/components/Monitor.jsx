@@ -14,8 +14,8 @@ const Monitor = () => {
 
                     className='flex flex-col gap-4 justify-start items-start'>
                     <p className='uppercase text-blue-600'>Monitor</p>
-                    <h2 className='text-amber-500 font-bold text-2xl capitalize'>Some catchy title for monitoring</h2>
-                    <p className='text-gray-500'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi ab consequatur officiis animi iure aspernatur quidem eius laboriosam deserunt, odit incidunt doloremque soluta temporibus nemo ipsam harum? Soluta, dolore eum.</p>
+                    <h2 className='text-amber-500 font-bold text-2xl capitalize'>Because Micromanaging Is a Feature Now</h2>
+                    <p className='text-gray-500'>Lorem ipsum your way into peace of mind — or paranoia, depending on how you handle constant visibility. We track everything: clicks, keystrokes, coffee breaks, and probably your soul. Expect pretty charts, real-time alerts, and passive-aggressive reports that quietly scream “do better.” It’s all in the name of productivity… allegedly.</p>
                     <a href='#' className='flex justify-center items-center gap-2'>
                         <p className='uppercase text-blue-600 font-semibold'>Learn more about monitoring</p>
                         <TbArrowBigRightLinesFilled className='text-blue-600' />

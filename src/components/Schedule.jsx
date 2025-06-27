@@ -20,8 +20,8 @@ const Schedule = () => {
 
                     className='flex flex-col gap-4 justify-start items-start'>
                     <p className='uppercase text-amber-600'>Schedule</p>
-                    <h2 className='text-blue-500 font-bold text-2xl capitalize'>Some catchy title for scheduling</h2>
-                    <p className='text-gray-500'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi ab consequatur officiis animi iure aspernatur quidem eius laboriosam deserunt, odit incidunt doloremque soluta temporibus nemo ipsam harum? Soluta, dolore eum.</p>
+                    <h2 className='text-blue-500 font-bold text-2xl capitalize'>Pick a Time. Regret It Later.</h2>
+                    <p className='text-gray-500'>Lorem ipsum your way through this, or just pick a time so we can finally “align.” Expect the usual ritual: awkward hellos, screen-sharing chaos, someone forgetting to unmute, and at least one person pretending they read the brief. We'll throw around words like “synergy,” “touch base,” and “next steps” — all while secretly wondering if this meeting could've been an email. But hey, it's on the calendar now, so let's make it look productive.</p>
                     <a href='#' className='flex justify-center items-center gap-2'>
                         <p className='uppercase text-amber-600 font-semibold'>Schedule btn</p>
                         <TbArrowBigRightLinesFilled className='text-amber-600' />

@@ -10,18 +10,18 @@ const Partner = () => {
     const features = [
         {
             icon: "🔍",
-            title: "Find out what you need",
-            description: "We present you a proposal and discuss nitty-gritty like"
+            title: "Figure out your mess.",
+            description: "We’ll send you a fancy PDF and pretend to know what we're doing. Then we'll argue over small details like fonts, colors, and scope creep."
         },
         {
             icon: "⚙️",
             title: "Work out the details",
-            description: "Communication protocols apart from engagement models"
+            description: "We discuss how we’ll talk, when we’ll talk, and how many meetings we can all pretend to be busy for."
         },
         {
             icon: "🚀",
             title: "We get to work fast",
-            description: "Protocols apart from engage models, pricing billing"
+            description: "Once we sort out the holy trifecta: how we talk, how you pay, and who to blame when scope explodes."
         }
     ]
 

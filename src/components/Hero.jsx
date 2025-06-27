@@ -17,7 +17,7 @@ const Hero = () => {
 
                     className="flex items-center gap-2 bg-amber-100 w-fit px-5 py-2 rounded-full group hover:bg-blue-100 cursor-pointer">
                     <BiSolidStar className="text-amber-600 group-hover:scale-110 transition-transform group-hover:text-blue-500 animate-spin group-hover:animate-pulse" />
-                    <span className="font-normal text-sm"> Write a tagline here you Idiot!</span>
+                    <span className="font-normal text-sm"> Use Your Mind. Or Don't.</span>
                 </motion.div>
                 {/* heading */}
                 <motion.h1
@@ -26,8 +26,8 @@ const Hero = () => {
                     whileInView="show"
 
                     className="font-bold text-4xl md:text-5xl lg:text-6xl leading-tight capitalize">
-                    Use your mind and write{" "}
-                    <span className="text-amber-500 hover:text-blue-500 cursor-pointer transition-colors">something meaningful</span> here. Ok?
+                    We're just a website, not your{" "}
+                    <span className="text-amber-500 hover:text-blue-500 cursor-pointer transition-colors">life coach.</span> Ok?
                 </motion.h1>
                 {/* para */}
                 <motion.p
@@ -36,10 +36,7 @@ const Hero = () => {
                     whileInView="show"
 
                     className="text-gray-500 text-lg md:text-xl max-w-xl">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias
-                    sunt, officiis recusandae, vero placeat adipisci totam asperiores
-                    necessitatibus minima atque, illum ea? Perferendis quasi itaque
-                    temporibus? Iusto repudiandae numquam maxime.
+                    Lorem ipsum your way through this intro, or actually read it — your call. We're supposed to say something meaningful here, like how we solve problems or disrupt industries, but let's be real: you're here to scroll and judge. That's fine. We're ready for it.
                 </motion.p>
                 <motion.div
                     variants={fadeIn('top', 0.4)}
