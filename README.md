@@ -10,16 +10,15 @@ A modern, responsive landing page built with **React**, **Tailwind CSS**, and **
 
 ## 📁 Structure
 
+```bash
 react-landing/
-|
 ├── public/ # Static files
-|
 ├── src/
-| |
 │ ├── components/ # UI Components
 │ ├── App.jsx
 │ └── main.jsx
 ├── index.css, vite.config.js, tailwind.config.js
+```
 
 ## 📦 Setup
 
@@ -31,13 +30,11 @@ npm run dev
 ```
 
 ✅ Features
-Fully responsive
 
-Utility-first styling with Tailwind
-
-Fast build and HMR via Vite
-
-Easy to customize and extend
+- Fully responsive
+- Utility-first styling with Tailwind
+- Fast build and HMR via Vite
+- Easy to customize and extend
 
 🚀 Build & Deploy
 
@@ -45,11 +42,7 @@ Easy to customize and extend
 npm run build
 ```
 
-Deploy /dist on Vercel, Netlify, or GitHub Pages.
+- Deploy /dist on Vercel, Netlify, or GitHub Pages.
 
 🙌 Credits
 Made with ❤️ using React, Tailwind, and Vite.
-
-```
-
-```
