@@ -39,7 +39,7 @@ const Hero = () => {
                 <img
                     src={Heroimg}
                     alt="hero-img"
-                    className="hover:scale-101 transition-transform"
+                    className="hover:scale-101 hover:-rotate-90 transition-transform duration-300"
                 />
             </div>
         </section>
