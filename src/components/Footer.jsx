@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <section>
+        <section className='mx-auto'>
             Footer
         </section>
     )
