@@ -54,7 +54,7 @@ const testimonials = [
 const Testimonial = () => {
 
     return (
-        <section className='py-16 px-4 max-w-6xl mx-auto flex flex-col gap-8'>
+        <section id='testimonials' className='py-16 px-4 max-w-6xl mx-auto flex flex-col gap-8'>
             <div className='flex flex-col gap-2 items-center justify-center'>
                 <h2 className='font-bold text-2xl uppercase text-center'>Why do we care what people say!</h2>
                 <p className='text-md text-gray-500'>WTF are these people ranting on about?</p>
