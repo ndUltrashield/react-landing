@@ -11,8 +11,11 @@ A modern, responsive landing page built with **React**, **Tailwind CSS**, and **
 ## 📁 Structure
 
 react-landing/
+|
 ├── public/ # Static files
+|
 ├── src/
+| |
 │ ├── components/ # UI Components
 │ ├── App.jsx
 │ └── main.jsx
@@ -25,6 +28,7 @@ git clone https://github.com/ndUltrashield/react-landing.git
 cd react-landing
 npm install
 npm run dev
+```
 
 ✅ Features
 Fully responsive
@@ -37,10 +41,15 @@ Easy to customize and extend
 
 🚀 Build & Deploy
 
+```bash
 npm run build
+```
 
 Deploy /dist on Vercel, Netlify, or GitHub Pages.
 
 🙌 Credits
 Made with ❤️ using React, Tailwind, and Vite.
+
+```
+
 ```
